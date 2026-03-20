@@ -1,6 +1,6 @@
 // Her fortæller vi maskinen, hvordan den skal tegne
 module.exports = (req, res) => {
-  const slutDato = new Date("March 30, 2026 23:59:59").getTime();
+  const slutDato = new Date("April 19, 2026 23:59:59").getTime();
   const nu = new Date().getTime();
   const forskel = slutDato - nu;
 
