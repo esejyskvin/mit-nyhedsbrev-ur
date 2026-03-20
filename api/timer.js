@@ -1,7 +1,7 @@
 module.exports = (req, res) => {
   // 1. DYNAMISK DATO: Nu kan du skrive ?date=2026-04-19 i dit link!
   // Hvis du ikke skriver noget, bruger den din standard-dato:
-  const targetDate = req.query.date ? new Date(req.query.date) : new Date("2026-03-04T23:59:59");
+  const targetDate = req.query.date ? new Date(req.query.date) : new Date("2026-04-19T23:59:59");
   
   const nu = new Date();
   const forskel = targetDate.getTime() - nu.getTime();
